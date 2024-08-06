@@ -535,7 +535,7 @@ System.register("chunks:///_virtual/Wallet.ts", ['./rollupPluginModLoBabelHelper
         _proto.start = function start() {
           clickEventHandler.target = this.node;
           this.tonConnectUI = new TonConnectUI({
-            manifestUrl: 'https://<YOUR_APP_URL>/tonconnect-manifest.json',
+            manifestUrl: 'https://apostle-h.github.io/cocos1/tonconnect-manifest.json',
             buttonRootId: 'Cocos3dGameContainer'
           });
         };
